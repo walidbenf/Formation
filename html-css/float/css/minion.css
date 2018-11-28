@@ -1,0 +1,35 @@
+body {
+    background: pink;
+}
+
+section {
+    width: 60%;
+    margin: 0 auto;
+}
+
+table {}
+
+td {
+    width: 2em;
+    height: 2em;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.gray {
+    background: gray;
+}
+
+.white {
+    background: white;
+}
+
+.black {
+    background: black
+}
+
+.blue {
+    background: blue;
+}
