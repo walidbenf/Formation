@@ -7,7 +7,9 @@ section {
     margin: 0 auto;
 }
 
-table {}
+table {
+    border-collapse: collapse;
+}
 
 td {
     width: 2em;
