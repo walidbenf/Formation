@@ -71,15 +71,15 @@ section {
 
 .mg1,
 .mg2,
-.mg3 {
+.mg3,.mg4 {
   float: left;
-  margin: 5px;
+  margin: 0px;
   border: 5px double white;
   margin-bottom: 50px;
 }
 
 .mg1 {
-  padding-left: 470px;
+  padding-left: 420px;
 }
 
 .lg1,
@@ -156,7 +156,7 @@ margin-bottom:400px;
   padding-right: 72px;
   tex-align: left;
 }
-.i { 
+.i {
   tex-align: left;
   padding-right: 72px;
   margin-right: 70px;
@@ -305,4 +305,15 @@ margin-bottom:400px;
   content: "> ";
   color:#ffb515;
   font-size: 12px;
+}
+.oui {
+  width: 100%;
+}
+figure {
+  border: 5px double black;
+}
+figcaption{
+  color: #9aa8c5;
+  text-align:center;
+  background:lightgray
 }
