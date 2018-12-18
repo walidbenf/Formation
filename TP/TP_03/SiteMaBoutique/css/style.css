@@ -48,6 +48,8 @@ nav li a {
 .col-md-6 {
   border-left: 1px solid black;
   border-right: 1px solid black;
+  height:120px;
+  margin-top: 10px;
 }
 h4 {
   color:#53D2F6;

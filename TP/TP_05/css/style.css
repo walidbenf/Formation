@@ -3,7 +3,7 @@
 
 body {
   font-family: 'Charm', cursive;
-  font-size: 13px;
+  font-size: 16px;
   margin: 0;
   padding: 0;
 }
@@ -84,8 +84,8 @@ nav li:hover a {
 section {
   width: 100%;
   min-height: 300px;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
+  padding-bottom: 8px;
+  margin-bottom: 4px;
 }
 
 .sec {
@@ -118,23 +118,43 @@ section {
   background: rgba(64, 200, 130, 0.15);
 }
 
-#parcours {
+#parcours, #pex {
   border-top: 5px solid #f1dc4f;
   background: rgba(241, 211, 79, 0.15);
+  padding-bottom: 50px;
 }
 
-#competences {
+#competences, #loisir {
   border-top: 5px solid #0070bb;
   background: rgba(000, 112, 192, 0.15);
 }
 
-#recommandation {
+#recommandation, #contact {
   border-top: 5px solid #e44d26;
   background: rgba(228, 77, 38, 0.15);
 }
 
+#contact, #loisir, #pex {
+  padding-bottom: 35px;
+}
+
 img {
   width: 300px;
+}
+
+.cntct {
+  text-align: center;
+}
+
+h2, .pex {
+  text-align: center;
+}
+
+input[type="submit"] {
+  background: #e44d26;
+  border: 1px solid #e44d26;
+  border-radius: 10%;
+  color: #fff;
 }
 
 @media screen and (max-width:500px) {
