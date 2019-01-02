@@ -118,7 +118,7 @@ h4, p {
 }
 
 .image2 {
-  width: 21%;
+  width: 18%;
   position: absolute;
   right: 28%;
   top: 65%;
@@ -133,15 +133,25 @@ h4, p {
 }
 
 .rightli {
-  position: relative;
-  right: -60%;
+  position: absolute;
+  right: -34%;
+  top: 32%;
   list-style: none;
   text-decoration: none;
   color: #fff;
   text-align: center;
   width: 55%;
 }
-
+.rightlii:nth-child(2) {
+  position: absolute;
+  right: -34%;
+  top: 32%;
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  width: 55%;
+}
 .rightli li {
   font-weight: bold;
   position: relative;
@@ -187,9 +197,9 @@ h4, p {
 }
 
 .image3 {
-  width: 21%;
+  width: 18%;
   position: absolute;
-  right: 51%;
+  right: 54%;
   top: 65%;
   box-shadow: 1px 1px 1px 1px #ccc;
   border-radius: 8%;
