@@ -111,12 +111,53 @@
   opacity: 0;
 }
 
-.right img a p:hover{
+.right a:hover p {
   opacity: 1;
+}
+.right a {
+  color:gray;
+}
+.right a p {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+.right .p1 {
+  opacity: 0;
+  position: absolute;
+  right: 67%;
+  bottom: 70%;
+}
+.right .p2 {
+  opacity: 0;
+  position: absolute;
+  right: 39%;
+  bottom: 71%;
+}
+
+.right2 img:hover {
+  opacity: 0;
 }
 
 .right2 img {
   float: left;
   width: 530px;
   height: 530px;
+}
+
+.para {
+  position: absolute;
+  right: 56.4%;
+  bottom: 45.3%;
+  opacity: 0;
+  width: 530px;
+  height: 530px;
+}
+
+.para p {
+  margin-top: 265px;
+  margin-left: 265px;
+}
+
+.para:hover {
+  opacity: 1;
 }
