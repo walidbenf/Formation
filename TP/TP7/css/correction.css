@@ -95,7 +95,7 @@ header nav ul li {
 
 header nav ul li a {
   color: #454545;
-  font-family: ;
+  font-family: 'raleway-regular', arial;
   font-size: 14px;
   text-decoration: none;
   letter-spacing: 1px;
@@ -206,17 +206,134 @@ header .right a {
 .main .work a:hover .caption {
   opacity: 1;
 }
+
 .work .caption .work_title {
-  display:block;
-  width:100%;
-  position:absolute;
+  display: block;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  top: 200px;
+  margin-top: 40px;
 }
+
 .main .work .caption h1 {
   position: relative;
   display: inline-block;
-  max-width:90%;
+  max-width: 90%;
   padding: 20px 0;
   z-index: 77;
-  font-size:16px;
+  font-size: 16px;
+  letter-spacing: 5px;
+  font-family: 'raleway-regular', arial;
+  border-bottom: 1px solid #bfbbbb;
+  border-top: 1px solid #bfbbbb;
+}
 
+/*Page Inner */
+.top {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  background: url(../img/hero_image.jpg);
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-position: 50% 50%;
+}
+
+.work_nav {
+  width: 100%;
+  display: block;
+}
+
+.work_nav .btn {
+  float: right;
+}
+
+.work_nav ul {
+  list-style: none;
+}
+
+.work_nav ul li {
+  display: block;
+  float: left;
+  margin: 0 0 1px 1px;
+  position: relative;
+}
+
+.work_nav a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: url(../img/p_navigation.png) no-repeat;
+  background-position: 0 0;
+}
+
+.work_nav a.previous {
+  background-position: 0 0;
+}
+.work_nav a.grid {
+  background-position: -41px 0;
+}
+.work_nav a.next {
+  background-position: -82px 0;
+}
+.top .title {
+  display:block;
+  width:100%;
+  color:#4B4848;
+  font-family: 'raleway-bold', arial;
+  font-size:26px;
+  font-weight:900;
+  background: rgba(255, 255, 255, .7);
+  padding:20px;
+  text-transform:uppercase;
+  line-height: 30px;
+  margin:0 !important;
+  overflow: hidden;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -o-box-sizing:border-box;
+  -ms-box-sizing:border-box;
+  /* Voir https://developer.mozilla.org/fr/docs/Web/CSS/box-sizing*/
+}
+.content_header {
+  position:absolute;
+  bottom:0;
+  margin: 0 auto;
+  left:50%;
+  margin-left:-29%;
+}
+.content {
+  color:#4B4848;
+  font-family:'raleway-regular' , arial;
+  font-size:15px;
+  line-height:22px;
+  padding:60px 30px;
+  background: #fff;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -o-box-sizing:border-box;
+  -ms-box-sizing:border-box;
+}
+.content p {
+  color:#4B4848;
+  font-family:'raleway-regular' , arial;
+  font-size:15px;
+  line-height:22px;
+  margin-bottom:60px;
+}
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  color: #4B4848;
+  font-family: 'raleway-semibold', arial;
+  
 }
