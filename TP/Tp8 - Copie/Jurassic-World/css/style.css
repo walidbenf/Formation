@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Diplomata+SC');
+
+/*Style global */
+* {
+  font-family: 'Roboto Slab', serif;
+}
+
+.dino {
+  background-image: url(../img/dinosaure.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nav {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 50px;
+}
+
+.nav-link {
+  color: white;
+  text-transform: uppercase;
+}
+
+.en {
+  color: darkgrey;
+}
+
+.bout {
+  background-color: #1C5F81;
+  border-color: #1C5F81;
+  color: #fff;
+}
+
+.bout:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #1C5F81;
+}
+
+.climat {
+  position: absolute;
+  right: 0%;
+  bottom: 10%;
+}
+
+.dino2 {
+  padding: 0;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.title1 {
+  margin-top: 20px;
+  font-family: 'Diplomata SC', cursive;
+  font-size: 32px;
+}
+
+.ent {
+  transition: transform .2s
+}
+
+.ent:hover {
+  transform: scale(1.2);
+}
+
+.lorem {
+  width: 70%;
+  padding: 0;
+  margin: auto;
+}
+
+.jurassic, .jurassic2 {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.courez {
+  font-size: 18px;
+  color: black;
+}
+.dino3 {
+  padding-top:80px;
+  margin: auto;
+  width: 50%;
+}
+h3 {
+  text-transform: uppercase;
+}
