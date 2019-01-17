@@ -1,0 +1,82 @@
+html, body, .cbg {
+  background-color: #EDEDED !important;
+}
+
+body {
+  overflow: hidden !important;
+}
+
+.margin-top {
+  margin-top: 35px;
+}
+
+.nav-link {
+  color: #454545;
+}
+
+.bac {
+  height: 700px;
+  background: url(../images/header_bg.jpg);
+  margin: 0 !important;
+  background-repeat: no-repeat;
+  background-size: 1920px 768px;
+  background-attachment: fixed;
+}
+
+.ct {
+  position: relative;
+  bottom: -20%;
+  right: -47.5%;
+}
+
+.ct2 {
+  position: relative;
+  bottom: -20%;
+  right: -44%;
+}
+
+.ct3 {
+  position: absolute;
+  bottom: 637px;
+  right: 887px;
+}
+
+.ct4 {
+  position: absolute;
+  bottom: 471px;
+  right: 905px;
+}
+
+.ct5 {
+  position: relative;
+  bottom: -47%;
+  right: -49.3%;
+  text-transform: uppercase;
+}
+
+#pres {
+  background: #fff;
+}
+h5 {
+  text-transform: uppercase;
+  margin-left:65px;
+}
+.vide {
+  background:white;
+  height:100px;
+}
+.crayon {
+  margin-left: 85px;
+}
+#about {
+  margin-top:200px;
+}
+.ct6{
+  margin-left:500px;
+}
+.cth5{
+  margin-left:485px;
+}
+.crto{
+  margin-top:120px;
+}
