@@ -1,6 +1,25 @@
-.middle{
-  position:fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(50%, 50%);
+.main {
+  position: relative;
+  left: 20px;
+}
+
+.parent {
+  margin-left: 40px;
+}
+
+.pp {
+  position: static;
+  padding-left: 50px;
+}
+
+span {
+  position: absolute;
+  left: 10px;
+}
+
+.tt {
+  background: url(../images/header_bg.jpg);
+  height: 1768px;
+  width:1068px;
+background-position : bottom right;
 }
