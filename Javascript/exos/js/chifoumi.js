@@ -3,7 +3,7 @@ var joueur = prompt("Pierre,Feuille,Ciseaux");
 ordi = Math.floor(Math.random() * 3);
 
 if (joueur == "Pierre") {
-  if (ordi == 1) {
+  if (ordi <= 1) {
     alert("Egalité");
   } else if (ordi == 2) {
     alert("Perdu la pierre se fait battre par la feuille");
@@ -27,7 +27,7 @@ if (joueur == "Pierre") {
     alert("Perdu le ciseaux perd contre la pierre");
   }
 }
-console.log(ordi);
+document.write(ordi);
 //var ordi = Math.floor(Math.random() * 3);
 /*var joueur = prompt("Pierre,Feuille,Ciseaux");
 
