@@ -1,0 +1,30 @@
+jQuery() abrégée $() est la fonction de base pour faire appel au jquery.
+L'utilisation du dollars est l'appel à la librairie  jquery.
+Donc la syntaxe de base pour accéder aux éléments html avec jquery va $etre $(selecteur).
+Exemple pour les balises p nous utiliserons :
+$('p');
+
+Exemple de plusieurs méthodes créé de jQuery.
+
+Méthode hide() sur une balise p.
+
+<script>
+  $('p').hide();
+</script>
+
+Cette méthode va cacher le contenu du p.
+
+
+L'une des forces en jQuery est qu'on peut selectionner par exemple tout les éléments ayant une classe ex:'para'.
+En écrivant $('.para').
+En gros en jQuery on peut utiliser les sélecteurs CSS pour cibler des éléments dans l'HTML.
+Comme la fonction jQuery renvoit toujours un objet jQuery, nous allons pouvoir pratiquer ce qu’on appelle le « chaînage » de méthodes.
+Pour chaîner des méthodes, nous allons utiliser la syntaxe suivante : $(selecteur).methode1().methode2().methode3().
+$(document).ready(function(){
+$('.para').hide();
+});
+
+Le ready est facultatif.
+$(function(){
+$('.para').hide();
+});
