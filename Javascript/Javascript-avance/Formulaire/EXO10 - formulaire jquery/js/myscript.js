@@ -80,6 +80,27 @@ var myUsers = [
 // }
 
 
+$(‘#userSearch .form-control’).on(“keyup”, function () {
+     var isSearched = $(‘#userSearch .form-control’).val().length >=1;
+     var userSearchedText = $(this).val().toLowerCase();
+     var matchList = $(‘#list_users .card h5.card-title’);
+     matchList.each(function(){
+       var matched = $(this).text().toLowerCase().indexOf(userSearchedText) > -1;
+       if(isSearched&&matched) {
+         $(this).parent().css( ‘background’ , ‘red’);
+       } else {
+         $(this).parent().css( ‘background’ , ‘white’);
+       }
+     });
+ });
+});
+
+
+
+/*$(myUsers).each(function(index) {
+  document.write(index + ": " + JSON.stringify(this, ['name']));
+
+});*/
 $(function() {
   $('.afficher').click(function() {
     $('#formulaire').toggle();
