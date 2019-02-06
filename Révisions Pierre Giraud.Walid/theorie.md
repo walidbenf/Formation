@@ -1,6 +1,6 @@
 **Les méthodes sont disponible dans le fichier méthodes sous format html,ce sont des copies de codes trouvés sur Pierre Giraud**
 
-#1.Les sélecteurs
+#1.Les sélecteurs#
 
 `jQuery()` abrégée `$()` est la fonction de base pour faire appel au jquery.
 L'utilisation du dollars est l'appel à la librairie jquery.
