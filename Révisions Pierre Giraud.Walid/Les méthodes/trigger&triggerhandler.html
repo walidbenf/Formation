@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Découverte de jQuery</title>
+        <meta charset='utf-8'>
+    </head>
+    <body>
+        <h1>Gestion d'évènements en jQuery</h1>
+
+        <label for='fcs'>Champ à focus</label>
+        <input type='text' placeholder='Je veux le focus' id='fcs'>
+        <button id='trg'>Forcer le focus avec trigger()</button>
+        <button id='trgh'>Forcer le focus avec triggerHandler()</button>
+        <span id='msg'></span>
+
+        <!--On inclut la librairie jQuery-->
+        <script src='https://code.jquery.com/jquery-3.1.0.js'></script>
+
+        <!--On écrit notre code JavaScript / jQuery-->
+        <script>
+            $(document).ready(function(){
+
+                //trigger() s'exécute si on clique sur le bouton trg
+                $('#trg').click(function(){
+                    $('#fcs').trigger('focus');
+                });
+
+                //triggerHandler() s'exécute si on clique sur le bouton trgh
+                $('#trgh').click(function(){
+                    $('#fcs').triggerHandler('focus');
+                });
+
+                //On attache un gestionnaire d'évènement focus à notre input
+                $('#fcs').focus(function(){
+                    $('#msg').text('Evènement focus déclenché');
+                })
+
+            });
+        </script>
+    </body>
+</html>

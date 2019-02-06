@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Découverte de jQuery</title>
+        <meta charset='utf-8'>
+    </head>
+    <body>
+        <h1>Gestion d'évènements en jQuery</h1>
+
+        <button id='b1'>Pas de clic possible</button>
+        <button id='b2'>Ajout de gestionnaire d'event click</button>
+        <button id='b3'>Suppr de gestionnaire d'event click</button>
+        <span id='msg'>Bouton cliqué</span>
+
+        <!--On inclut la librairie jQuery-->
+        <script src='https://code.jquery.com/jquery-3.1.0.js'></script>
+
+        <!--On écrit notre code JavaScript / jQuery-->
+        <script>
+            $(document).ready(function(){
+
+                //Le span est caché par défaut
+                $('#msg').hide();
+
+                /*Lorsqu'on clique sur b2, un gestionnaire
+                 *d'évènement click est ajouté à b1*/
+                $('#b2').click(function(){
+                    $('#b1').on('click', function(){
+                        $('#msg').show();
+                    });
+                    $('#b1').text('Vous pouvez me cliquer');
+                });
+
+                /*Lorsqu'on clique sur b3, le gestionnaire
+                 *d'évènement click de b1 est supprimé*/
+                $('#b3').click(function(){
+                    $('#b1').off('click');
+                    $('#b1').text('Pas de clic possible');
+                });
+
+            });
+        </script>
+    </body>
+</html>

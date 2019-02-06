@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Découverte de jQuery</title>
+        <meta charset='utf-8'>
+        <style>
+            div{
+                border: 1px solid black;
+              }
+        </style>
+    </head>
+    <body>
+        <h1>Gestion d'évènements en jQuery</h1>
+
+        <div class='div1'>
+            <p>Un premier paragraphe</p>
+            <p>Un autre paragraphe</p>
+        </div>
+        <span id='msg'></span>
+
+        <!--On inclut la librairie jQuery-->
+        <script src='https://code.jquery.com/jquery-3.1.0.js'></script>
+
+        <!--On écrit notre code JavaScript / jQuery-->
+        <script>
+            //Dans le cas ou on a une même fonction gestionnaire à un même élément
+             on peut attacher du coup plusieurs éléments.
+            $(document).ready(function(){
+
+                $('.div1').on('mouseenter mouseleave', function(){
+                    $('#msg').text('Vous êtes entré ou sorti du div');
+                });
+
+            });
+        </script>
+    </body>
+</html>
