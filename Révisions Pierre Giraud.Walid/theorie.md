@@ -333,15 +333,3 @@ https://www.alsacreations.com/quiz/lire/17-jQuery-debutant
 ### 3.
 
 https://www.alsacreations.com/quiz/lire/18-jQuery-moyen
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
