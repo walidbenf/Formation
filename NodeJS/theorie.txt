@@ -1,0 +1,15 @@
+Premièrement télécharger node.js sur internet.(npm)
+Vérifier dans cmd :node -v
+npm install @angular/cli
+ng new sirh ==> creation projet angular
+ng server --open ==> lancement angular sur localhost:4200
+ng generate component nom(ex:heroes) ==> .ts(logic,data), .html, .css
+Créer une classe Hero, Hero:bernadette (objet de la classe)
+
+4 possibilités
+Composant
+Modules
+Services
+Directives
+
+Les modules sont contiennent les composants
