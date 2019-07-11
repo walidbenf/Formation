@@ -14,7 +14,7 @@
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="<?= URL ?>boutique.php">logo</a>
+  <a class="navbar-brand" href="<?= URL ?>index.php">logo</a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -23,7 +23,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="<?= URL ?>boutique.php">Accueil</a>
+        <a class="nav-link" href="<?= URL ?>index.php">Accueil</a>
       </li>
 
 <?php if( adminConnect() ) : ?>
@@ -35,13 +35,14 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="<?= URL ?>admin/gestion_boutique.php">Gestion boutique</a>
           <a class="dropdown-item" href="<?= URL ?>admin/gestion_membre.php">Gestion membre</a>
+            <a class="dropdown-item" href="<?= URL ?>admin/gestion_commande.php">Gestion commande</a>
         </div>
       </li>
 
 <?php endif; ?>
 
       <li class="nav-item">
-        <a class="nav-link" href="#">Panier</a>
+        <a class="nav-link" href="<?= URL ?>panier.php">Panier</a>
       </li>
 
 <?php if( userConnect() ) : ?>
